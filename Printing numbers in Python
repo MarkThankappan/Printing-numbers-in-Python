@@ -1,0 +1,8 @@
+start = int ( input ('Enter the fist number you want to print') )
+end = int ( input ('Enter the number you want your count to end at') )
+
+x = start
+
+while x<=end:
+    print(x)
+    x=x+1
